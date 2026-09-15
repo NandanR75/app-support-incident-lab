@@ -1,0 +1,17 @@
+2026-09-10 11:58:02 INFO  Checkout started for user_id=1
+2026-09-10 11:58:03 INFO  Order created in-memory, order_id=10025
+2026-09-10 11:58:04 ERROR Failed to commit order to database: connection timeout
+2026-09-10 11:58:04 INFO  Confirmation page rendered (cached order object)
+2026-09-05 16:20:11 INFO  POST /api/checkout - order_id=2 - status=200
+2026-09-05 16:20:12 INFO  Calling payment-service /charge
+2026-09-05 16:20:42 ERROR payment-service request timed out after 30000ms
+2026-09-05 16:20:42 ERROR Unhandled exception in checkout controller - HTTP 500 returned to client
+2026-09-11 09:12:03 INFO  GET /api/orders - user_id=1 - status=200 - duration_ms=8422
+2026-09-11 09:15:47 INFO  GET /api/orders - user_id=3 - status=200 - duration_ms=9310
+2026-09-11 09:20:01 WARN  Slow query detected on /api/orders - duration_ms=11002
+2026-09-11 10:02:15 ERROR Database connection pool exhausted
+2026-09-11 10:02:16 ERROR Database connection pool exhausted
+2026-09-11 10:02:20 INFO  Database connection pool recovered
+2026-09-12 14:30:00 ERROR Authentication failed for user_id=5 - invalid token
+2026-09-12 14:30:05 ERROR Authentication failed for user_id=5 - invalid token
+2026-09-12 14:31:00 INFO  User 5 logged in successfully after token refresh
