@@ -60,3 +60,4 @@ a tool like Splunk/Kibana.
 ```bash
 python3 scripts/log_analyzer.py scenarios/sample_app.log
 ```
+![Demo run](Screenshot%20(458).png)
